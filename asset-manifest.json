@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/buscavida-pizzeria-site/static/css/main.129ca668.css",
+    "main.js": "/buscavida-pizzeria-site/static/js/main.2cedd795.js",
+    "static/js/453.d510851a.chunk.js": "/buscavida-pizzeria-site/static/js/453.d510851a.chunk.js",
+    "index.html": "/buscavida-pizzeria-site/index.html",
+    "main.129ca668.css.map": "/buscavida-pizzeria-site/static/css/main.129ca668.css.map",
+    "main.2cedd795.js.map": "/buscavida-pizzeria-site/static/js/main.2cedd795.js.map",
+    "453.d510851a.chunk.js.map": "/buscavida-pizzeria-site/static/js/453.d510851a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.129ca668.css",
+    "static/js/main.2cedd795.js"
+  ]
+}

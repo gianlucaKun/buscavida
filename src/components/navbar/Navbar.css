@@ -1,0 +1,12 @@
+nav {
+    background-color: #61dafb;
+    display: flex;
+    padding: 0 20px; /* opzionale */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex: 1; /* prende tutto lo spazio disponibile */
+    justify-content: space-between;
+}

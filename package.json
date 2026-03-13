@@ -38,8 +38,8 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "https://gianlucaKun.github.io/buscavida",
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  },
-  "homepage": "https://gianlucaKun.github.io/buscavida-pizzeria-site"
+  }
 }

@@ -11,7 +11,7 @@ export default function PizzeriaPage() {
         <>
             <Navbar />
             <main>
-                <Hero title="Pizzeria a Cecina con forno a legna" phone="+39 3920027737" />
+                <Hero title="Pizzeria a Cecina con forno a legna" phone="+39 1234567890" />
                 <AboutPizzeria />
                 <MenuLinks />
                 <Gallery />

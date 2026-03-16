@@ -6,3 +6,22 @@
     text-align: center;
     margin: 36px 0;
 }
+.hero-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -36px;
+    img {
+        width: 30%;
+    }
+}
+.hero-title {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.hero-subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: -24px;
+}

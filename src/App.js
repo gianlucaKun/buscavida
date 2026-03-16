@@ -1,10 +1,10 @@
 import './App.css';
-import PizzeriaPage from './pages/PizzeriaPage';
+import Home from './pages/home/Home.jsx';
 
 function App() {
     return (
         <div className="App">
-            <PizzeriaPage />
+            <Home />
         </div>
     );
 }

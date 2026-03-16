@@ -1,0 +1,10 @@
+div.home-container {
+    background-image: url(../../assets/images/legno-chiaro-sfondo.jpeg);
+}
+
+.pizzeria-image-container {
+    padding: 20px 20px 0;
+}
+.pizzeria-image {
+    width: 100%;
+}

@@ -44,8 +44,18 @@
 
 .menu-container {
     display: flex;
-    align-items: center;
+    align-items: end;
     padding: 12px;
+    flex-direction: column;
+    margin-right: 1.5rem;
+    h1 {
+        font-weight: 600;
+        font-size: 1.2rem;
+        a {
+            text-decoration: none;
+            color : #000;
+        }
+    }
 }
 ul.navbar-menu {
     background: rgba(225,192,138,0.85);

@@ -13,9 +13,11 @@ export default function Navbar() {
             </div>
 
             <div className="menu-container">
+                <h1>Chiama ora il <a href="tel:+393513478565">+39 351 3478565</a> per prenotare un tavolo!</h1>
                 <ul className="navbar-menu">
                     <li>Home</li>
                     <li>Menu</li>
+                    <li>Gallery</li>
                     <li>Contatti</li>
                 </ul>
             </div>

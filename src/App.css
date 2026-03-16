@@ -5,3 +5,10 @@ body {
   background-repeat: no-repeat;
   font-family: 'Playfair Display', serif;
 }
+.pizzeria-image-container {
+  padding: 20px;
+}
+.pizzeria-image {
+  width: 100%;
+  height: auto;
+}

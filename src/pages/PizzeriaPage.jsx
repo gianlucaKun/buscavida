@@ -16,7 +16,8 @@ export default function PizzeriaPage() {
             <main>
                 <HeroBanner image={pizzaImage} button="View Menu" />
                 <Hero title="Pizzeria a Cecina con forno a legna" phone="+39 xxxxxxxx" />
-                <HeroBanner image={pizzeriaImage} button="Learn More" />
+                {/*<HeroBanner image={pizzeriaImage} button="Learn More" />*/}
+                <div className="pizzeria-image-container"><img src={pizzeriaImage} alt="Pizzeria interna" className="pizzeria-image"/></div>
                 <AboutPizzeria />
                 <Gallery />
                 <MenuLinks />

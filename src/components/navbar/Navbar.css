@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 32px;
+    padding: 12px 0 12px 32px;
     min-height: 90px;
 }
 
@@ -48,7 +48,7 @@
     padding: 12px;
 }
 ul.navbar-menu {
-    background: rgba(225,192,138,0.65);
+    background: rgba(225,192,138,0.85);
     backdrop-filter: blur(3px);
 
     padding: 12px 24px;

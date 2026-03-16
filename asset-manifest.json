@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/buscavida/static/css/main.3002b09c.css",
-    "main.js": "/buscavida/static/js/main.f4f17873.js",
-    "static/js/453.d510851a.chunk.js": "/buscavida/static/js/453.d510851a.chunk.js",
+    "main.css": "/buscavida/static/css/main.599cf6cc.css",
+    "main.js": "/buscavida/static/js/main.07f53710.js",
+    "static/js/453.bf4d4355.chunk.js": "/buscavida/static/js/453.bf4d4355.chunk.js",
+    "static/media/mattoni-sfondo.png": "/buscavida/static/media/mattoni-sfondo.d8fa27c02b4ba28093c1.png",
+    "static/media/pizza-bianca.png": "/buscavida/static/media/pizza-bianca.7aae665b5a5c4b745394.png",
+    "static/media/pizza-classica.png": "/buscavida/static/media/pizza-classica.0100274e673fb83aa7b2.png",
+    "static/media/pizza-speciale.png": "/buscavida/static/media/pizza-speciale.e3462640fc56c7fa9a1c.png",
+    "static/media/cornice-pizza-card.png": "/buscavida/static/media/cornice-pizza-card.764a3b4b9713d3b713ad.png",
     "static/media/logo.png": "/buscavida/static/media/logo.acbc4d1c9e5c2194eaa0.png",
-    "static/media/pizzeria-interno.jpeg": "/buscavida/static/media/pizzeria-interno.2e4cece1a7f8a8f6d8f9.jpeg",
     "static/media/pizza-dx.jpeg": "/buscavida/static/media/pizza-dx.639264cdc6276098a94e.jpeg",
     "static/media/legno-chiaro-sfondo.jpeg": "/buscavida/static/media/legno-chiaro-sfondo.ec3b53c201621156b84c.jpeg",
+    "static/media/legno-scuro-sfondo.jpeg": "/buscavida/static/media/legno-scuro-sfondo.2b1e7c4d06a39738a621.jpeg",
+    "static/media/pizzeria-interno3.jpeg": "/buscavida/static/media/pizzeria-interno3.236221b12de7737c86b0.jpeg",
+    "static/media/linea-dx.png": "/buscavida/static/media/linea-dx.e57b2b7368bfadaad2a8.png",
+    "static/media/linea-sx.png": "/buscavida/static/media/linea-sx.aa8bb0c21194ccb73ee2.png",
     "index.html": "/buscavida/index.html",
-    "main.3002b09c.css.map": "/buscavida/static/css/main.3002b09c.css.map",
-    "main.f4f17873.js.map": "/buscavida/static/js/main.f4f17873.js.map",
-    "453.d510851a.chunk.js.map": "/buscavida/static/js/453.d510851a.chunk.js.map"
+    "main.599cf6cc.css.map": "/buscavida/static/css/main.599cf6cc.css.map",
+    "main.07f53710.js.map": "/buscavida/static/js/main.07f53710.js.map",
+    "453.bf4d4355.chunk.js.map": "/buscavida/static/js/453.bf4d4355.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3002b09c.css",
-    "static/js/main.f4f17873.js"
+    "static/css/main.599cf6cc.css",
+    "static/js/main.07f53710.js"
   ]
 }

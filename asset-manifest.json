@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/buscavida/static/css/main.129ca668.css",
-    "main.js": "/buscavida/static/js/main.619d0109.js",
-    "static/js/453.d510851a.chunk.js": "/buscavida/static/js/453.d510851a.chunk.js",
-    "index.html": "/buscavida/index.html",
-    "main.129ca668.css.map": "/buscavida/static/css/main.129ca668.css.map",
-    "main.619d0109.js.map": "/buscavida/static/js/main.619d0109.js.map",
-    "453.d510851a.chunk.js.map": "/buscavida/static/js/453.d510851a.chunk.js.map"
+    "main.css": "/buscavida-pizzeria-site/static/css/main.0b8c9fa3.css",
+    "main.js": "/buscavida-pizzeria-site/static/js/main.6d31f765.js",
+    "static/js/453.d510851a.chunk.js": "/buscavida-pizzeria-site/static/js/453.d510851a.chunk.js",
+    "static/media/logo.png": "/buscavida-pizzeria-site/static/media/logo.acbc4d1c9e5c2194eaa0.png",
+    "static/media/pizza-dx.jpeg": "/buscavida-pizzeria-site/static/media/pizza-dx.639264cdc6276098a94e.jpeg",
+    "static/media/pizzeria-interno.jpeg": "/buscavida-pizzeria-site/static/media/pizzeria-interno.e2eda34f6fb91b947c2d.jpeg",
+    "static/media/legno-chiaro-sfondo.jpeg": "/buscavida-pizzeria-site/static/media/legno-chiaro-sfondo.ec3b53c201621156b84c.jpeg",
+    "index.html": "/buscavida-pizzeria-site/index.html",
+    "main.0b8c9fa3.css.map": "/buscavida-pizzeria-site/static/css/main.0b8c9fa3.css.map",
+    "main.6d31f765.js.map": "/buscavida-pizzeria-site/static/js/main.6d31f765.js.map",
+    "453.d510851a.chunk.js.map": "/buscavida-pizzeria-site/static/js/453.d510851a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.129ca668.css",
-    "static/js/main.619d0109.js"
+    "static/css/main.0b8c9fa3.css",
+    "static/js/main.6d31f765.js"
   ]
 }

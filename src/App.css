@@ -6,3 +6,15 @@ body {
   font-family: 'Playfair Display', serif;
   padding: 12px 30px 30px;
 }
+
+/* tablet */
+@media (max-width: 1025px) {
+  body {
+    padding: 12px 12px 30px;
+  }
+}
+
+/* smartphone */
+@media (max-width: 768px) {
+}
+

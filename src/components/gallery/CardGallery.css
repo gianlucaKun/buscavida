@@ -92,3 +92,11 @@
             inset 0 -3px 6px rgba(0,0,0,0.5),
             0 6px 14px rgba(0,0,0,0.6);
 }
+
+/* tablet */
+@media (max-width: 1025px) {
+}
+
+/* smartphone */
+@media (max-width: 768px) {
+}

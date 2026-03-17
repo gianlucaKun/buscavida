@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 0 12px 32px;
+    padding: 12px 16px;
     min-height: 90px;
     background-image: url("../../assets/images/legno-scuro-sfondo.jpeg");
+    position: relative;
 }
 
 .logo-container {
@@ -47,10 +48,10 @@
 
 .menu-container {
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     padding: 12px;
     flex-direction: column;
-    margin-right: 1.5rem;
+    margin-right: 0;
     h1 {
         font-weight: 600;
         font-size: 1.2rem;
@@ -95,4 +96,155 @@ ul.navbar-menu {
     /*color: #5b3a21;*/
     color: #A0563E;
     transform: translateY(-1px);
+}
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    position: relative;
+}
+
+.hamburger span {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* posizioni iniziali */
+.hamburger span:nth-child(1) {
+    top: 0;
+}
+
+.hamburger span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hamburger span:nth-child(3) {
+    bottom: 0;
+}
+
+.hamburger.open span:nth-child(1) {
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.textTelephoneShort {
+    display: none;
+}
+/* tablet */
+@media (max-width: 1025px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .textTelephoneLong {
+        display: none;
+    }
+
+    .textTelephoneShort {
+        display: block;
+        width: 100%;
+        text-align: right;
+    }
+
+    .textTelephoneShort a {
+        text-align: right;
+        font-size: 32px;
+    }
+
+    .navbar-menu {
+        position: absolute;
+        top: calc(100% + 4px);
+        right: 16px;
+        left: 16px;
+
+        background-image: url("../../assets/images/legno-scuro-sfondo.jpeg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+
+        padding: 20px 0;
+        margin: 0;
+
+        opacity: 0;
+        transform: translateY(-10px);
+        pointer-events: none;
+
+        transition: opacity 0.25s ease, transform 0.25s ease;
+        z-index: 20;
+    }
+
+    .navbar-menu.open {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+}
+
+/* smartphone */
+@media (max-width: 768px) {
+    .logo-image {
+        width: 75px;
+    }
+    .logo-text h1 {
+        margin: 0;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .textTelephoneShort {
+        display: block;
+    }
+    .textTelephoneShort a {
+        display: inline-block;
+        text-align: right;
+        font-size: 20px;
+        width: 100%;
+    }
+    .navbar-menu {
+        top: calc(100% + 6px);
+        right: 12px;
+        left: 12px;
+        gap: 16px;
+        padding: 16px 0;
+        justify-content: space-between;
+    }
+    .menu-container {
+        display: flex;
+        align-items: flex-end;
+        padding: 12px;
+        margin-right: 0;
+        h1 {
+            font-weight: 600;
+            font-size: 1.2rem;
+            color : #fff;
+            a {
+                text-decoration: none;
+                color : #fff;
+            }
+        }
+    }
 }

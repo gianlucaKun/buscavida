@@ -28,8 +28,15 @@
 
 /* tablet */
 @media (max-width: 1025px) {
+
 }
 
 /* smartphone */
 @media (max-width: 768px) {
+    .linea-sx {
+        display: none;
+    }
+    .linea-dx {
+        display: none;
+    }
 }

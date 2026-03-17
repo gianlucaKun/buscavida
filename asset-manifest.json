@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/buscavida/static/css/main.d497f29f.css",
+    "main.css": "/buscavida/static/css/main.3322739e.css",
     "main.js": "/buscavida/static/js/main.b3ac79d4.js",
     "static/js/453.bf4d4355.chunk.js": "/buscavida/static/js/453.bf4d4355.chunk.js",
     "static/media/mattoni-sfondo.png": "/buscavida/static/media/mattoni-sfondo.d8fa27c02b4ba28093c1.png",
@@ -16,12 +16,12 @@
     "static/media/linea-dx.png": "/buscavida/static/media/linea-dx.e57b2b7368bfadaad2a8.png",
     "static/media/linea-sx.png": "/buscavida/static/media/linea-sx.aa8bb0c21194ccb73ee2.png",
     "index.html": "/buscavida/index.html",
-    "main.d497f29f.css.map": "/buscavida/static/css/main.d497f29f.css.map",
+    "main.3322739e.css.map": "/buscavida/static/css/main.3322739e.css.map",
     "main.b3ac79d4.js.map": "/buscavida/static/js/main.b3ac79d4.js.map",
     "453.bf4d4355.chunk.js.map": "/buscavida/static/js/453.bf4d4355.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d497f29f.css",
+    "static/css/main.3322739e.css",
     "static/js/main.b3ac79d4.js"
   ]
 }

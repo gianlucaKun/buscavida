@@ -9,6 +9,7 @@ footer {
     gap: 8px;
     background-image: url("../../assets/images/legno-scuro-sfondo.jpeg");
     color: #fff;
+    border-top: 8px solid #000;
     /*background-color: #f8f9fa;*/
     h1 {
         font-size: 1.8rem;

@@ -1,16 +1,17 @@
 body {
-  /*padding: 20px;*/
-  background-image: url(./assets/images/mattoni-sfondo.png);
-  background-size: contain;
+  background-image: url(./assets/images/sfondo-cemento2.png);
+  background-size: cover;
   background-repeat: repeat;
-  font-family: 'Playfair Display', serif;
-  padding: 12px 30px 30px;
+  background-position: center;
+  /*font-family: 'Playfair Display', sans-serif;*/
+  /*padding: 12px 30px 30px;*/
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 /* tablet */
 @media (max-width: 1025px) {
   body {
-    padding: 12px 12px 30px;
+    /*padding: 12px 12px 30px;*/
   }
 }
 

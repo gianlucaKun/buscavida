@@ -1,22 +1,27 @@
 import './Hero.css';
-import lineaDx from '../../assets/images/linea-dx.png';
-import lineaSx from '../../assets/images/linea-sx.png';
-export default function Hero({ title, subtitle }) {
-    const hiddenStyle = { display: subtitle };
-    const subtitleText = "Pizza croccante, impasto leggero e forno rovente.";
 
+export default function Hero() {
     return (
         <section className="hero-container">
-            <div className="hero-title-container">
-                <img src={lineaSx} alt="Linea sx" className="linea-sx" />
-                <h1 className="hero-title">{title}</h1>
-                <img src={lineaDx} alt="Linea dx" className="linea-dx" />
-            </div>
+            <div className="hero-overlay"></div>
 
-            <h2 className="hero-subtitle" style={hiddenStyle}>
-                {subtitleText}
-            </h2>
-            {/*<a href={`tel:${phone}`}>Chiama ora {phone}</a>*/}
+            <div className="hero-content">
+                <h1 className="hero-title">ESPLORA IL GUSTO</h1>
+
+                <div className="hero-badge">
+                    <span>PIZZA</span>
+                    <span>•</span>
+                    <span>SCHIACCIATINO</span>
+                    <span>•</span>
+                    <span>BIRRA</span>
+                </div>
+
+                <p className="hero-subtitle">
+                    Pizza croccante, impasto leggero e forno rovente.
+                </p>
+
+                <button className="hero-button">SCOPRI DI PIÙ</button>
+            </div>
         </section>
     );
 }

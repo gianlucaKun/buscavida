@@ -1,6 +1,6 @@
 body {
-  background-image: url(./assets/images/sfondo-cemento2.png);
-  background-size: cover;
+  background-image: url(./assets/images/muro-cemento.jpg);
+  background-size: contain;
   background-repeat: repeat;
   background-position: center;
   /*font-family: 'Playfair Display', sans-serif;*/

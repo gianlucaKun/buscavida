@@ -88,6 +88,9 @@
     background: #b12918;
 }
 @media (max-width: 1250px) {
+    .display-full-screen{
+        display: none;
+    }
     .link-section-container {
         padding: 40px 0 60px;
     }

@@ -102,6 +102,8 @@
     background: rgba(20, 20, 20, 0.55);
 }
 
+
+
 @media (max-width: 1024px) {
     .hero-container {
         background-position: right -260px center;
@@ -111,6 +113,13 @@
 
     .hero-content {
         max-width: 480px;
+    }
+    .hero-title {
+        text-align: center;
+    }
+
+    .hero-subtitle {
+        text-align: center;
     }
 }
 
@@ -139,6 +148,7 @@
     .hero-content {
         max-width: 100%;
         align-items: center;
+        margin: 0 auto;
     }
 
     .hero-title {

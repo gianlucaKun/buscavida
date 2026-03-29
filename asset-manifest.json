@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/buscavida/static/css/main.2fdcd08f.css",
-    "main.js": "/buscavida/static/js/main.41752c11.js",
-    "static/js/453.bf4d4355.chunk.js": "/buscavida/static/js/453.bf4d4355.chunk.js",
-    "static/media/sfondo-cemento2.png": "/buscavida/static/media/sfondo-cemento2.e147ff8c4ff49385e8ac.png",
-    "static/media/pizza-bianca.png": "/buscavida/static/media/pizza-bianca.7aae665b5a5c4b745394.png",
-    "static/media/pizza-classica.png": "/buscavida/static/media/pizza-classica.0100274e673fb83aa7b2.png",
-    "static/media/pizza-speciale.png": "/buscavida/static/media/pizza-speciale.e3462640fc56c7fa9a1c.png",
-    "static/media/cornice-pizza-card.png": "/buscavida/static/media/cornice-pizza-card.764a3b4b9713d3b713ad.png",
+    "main.css": "/buscavida/static/css/main.a90f5368.css",
+    "main.js": "/buscavida/static/js/main.9d97022d.js",
+    "static/js/453.d510851a.chunk.js": "/buscavida/static/js/453.d510851a.chunk.js",
     "static/media/1pizza-rucola.png": "/buscavida/static/media/1pizza-rucola.ba2e3c63cd40e87d17e9.png",
+    "static/media/muro-cemento.jpg": "/buscavida/static/media/muro-cemento.3593d0017bed9514241d.jpg",
+    "static/media/rosso-relativo.jpeg": "/buscavida/static/media/rosso-relativo.32e35032eb5b8cd3c1c8.jpeg",
+    "static/media/pizzeria-interno.jpeg": "/buscavida/static/media/pizzeria-interno.2e4cece1a7f8a8f6d8f9.jpeg",
+    "static/media/pizzarucola-e-pizzasalamino.jpeg": "/buscavida/static/media/pizzarucola-e-pizzasalamino.6a5653d5d7638d97fa8a.jpeg",
+    "static/media/bianca.jpeg": "/buscavida/static/media/bianca.719f485ffaa2a5cc601b.jpeg",
+    "static/media/pizze-comanda.jpeg": "/buscavida/static/media/pizze-comanda.5f5f653191916adbcb6f.jpeg",
     "static/media/busca-vida-text.png": "/buscavida/static/media/busca-vida-text.4fcf960135e84b45b245.png",
     "static/media/legno-scuro-sfondo.jpeg": "/buscavida/static/media/legno-scuro-sfondo.2b1e7c4d06a39738a621.jpeg",
     "static/media/pizzeria-interno3.jpeg": "/buscavida/static/media/pizzeria-interno3.236221b12de7737c86b0.jpeg",
     "static/media/sfondo-navbar-nero.jpg": "/buscavida/static/media/sfondo-navbar-nero.4243856d3739004b9edd.jpg",
     "index.html": "/buscavida/index.html",
-    "main.2fdcd08f.css.map": "/buscavida/static/css/main.2fdcd08f.css.map",
-    "main.41752c11.js.map": "/buscavida/static/js/main.41752c11.js.map",
-    "453.bf4d4355.chunk.js.map": "/buscavida/static/js/453.bf4d4355.chunk.js.map"
+    "main.a90f5368.css.map": "/buscavida/static/css/main.a90f5368.css.map",
+    "main.9d97022d.js.map": "/buscavida/static/js/main.9d97022d.js.map",
+    "453.d510851a.chunk.js.map": "/buscavida/static/js/453.d510851a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fdcd08f.css",
-    "static/js/main.41752c11.js"
+    "static/css/main.a90f5368.css",
+    "static/js/main.9d97022d.js"
   ]
 }

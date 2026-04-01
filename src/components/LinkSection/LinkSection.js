@@ -1,5 +1,6 @@
 import React from 'react';
 import './LinkSection.css';
+import {NavLink} from "react-router-dom";
 
 export default function LinkSection() {
     return (
@@ -14,13 +15,20 @@ export default function LinkSection() {
                 <li className="link-card">
                     <h3>IL NOSTRO MENU</h3>
                     <p>Scopri le nostre specialità</p>
-                    <button>VEDI MENU</button>
+                    <button><NavLink
+                        to="/menu"
+                        className="button-link"
+                    >
+                        VEDI MENU
+                    </NavLink></button>
                 </li>
 
                 <li className="link-card">
                     <h3>PRENOTA UN TAVOLO</h3>
                     <p>Riserva il tuo posto</p>
-                    <button className="primary">PRENOTA</button>
+                    <button className="primary"><a href="tel:+393513478565" className="button-link-prenota">
+                        PRENOTA
+                    </a></button>
                 </li>
             </ul>
         </section>

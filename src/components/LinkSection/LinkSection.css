@@ -74,6 +74,18 @@
     transition: 0.25s ease;
 }
 
+.link-card button .button-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-card button .button-link-prenota {
+    text-decoration: none;
+    color: #fff;
+    background: none;
+    border: none;
+}
+
 .link-card button:hover {
     transform: translateY(-2px);
     border-color: rgba(255, 255, 255, 0.8);

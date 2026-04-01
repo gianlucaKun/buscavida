@@ -1,0 +1,23 @@
+.menu-category {
+    padding: 40px 0;
+}
+
+.menu-category-header h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    padding-bottom: 10px;
+}
+
+.menu-category-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .menu-category-grid {
+        grid-template-columns: 1fr;
+    }
+}

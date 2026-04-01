@@ -50,13 +50,51 @@ ul.navbar-menu {
 }
 
 .navbar-menu li {
+    list-style: none;
+}
+
+.navbar-link {
+    display: inline-block;
+    position: relative;
     font-size: 1.4rem;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    color:#fff;
+    color: #fff;
+    text-decoration: none;
     cursor: pointer;
     transition: color 0.25s ease, transform 0.25s ease;
+    padding-bottom: 6px;
+}
+
+.navbar-link:hover {
+    transform: translateY(-1px);
+    color: #ffffff;
+}
+
+.navbar-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #d9772b;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.25s ease;
+}
+
+.navbar-link:hover::after {
+    transform: scaleX(1);
+}
+
+.navbar-link.active {
+    color: #d9772b;
+}
+
+.navbar-link.active::after {
+    transform: scaleX(1);
 }
 
 .button-prenota {
@@ -70,11 +108,6 @@ ul.navbar-menu {
     box-shadow: inset 0 1px 0 #000;
 }
 
-.navbar-menu li:hover {
-    /*color: #e88062;*/
-    transform: translateY(-1px);
-    border-bottom: 2px solid #ffffff;
-}
 .hamburger {
     display: none;
     flex-direction: column;

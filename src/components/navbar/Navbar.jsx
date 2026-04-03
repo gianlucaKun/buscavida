@@ -12,7 +12,7 @@ export default function Navbar() {
 
             <div className="navbar">
                 <div className="logo-container">
-                    <NavLink to="/buscavida" onClick={() => setOpen(false)}>
+                    <NavLink to="/" onClick={() => setOpen(false)}>
                         <img
                             src={buscavida_text}
                             alt="Logo Busca Vida"
@@ -38,7 +38,7 @@ export default function Navbar() {
                     <ul className={`navbar-menu ${open ? "open" : ""}`}>
                         <li>
                             <NavLink
-                                to="/buscavida"
+                                to="/"
                                 onClick={() => setOpen(false)}
                                 className={({ isActive }) =>
                                     `navbar-link ${isActive ? "active" : ""}`

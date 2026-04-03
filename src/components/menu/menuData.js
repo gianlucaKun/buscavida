@@ -57,7 +57,7 @@ export const menuData = [
     },
     {
         id: "particolari",
-        title: "Pizze particolari",
+        title: "Pizze speciali",
         items: [
             { name: "Mascarpone e crudo", description: "Pomodoro, mozzarella, mascarpone, prosciutto crudo", price: "8,50 €", tags: ["carne"] },
             { name: "Delicata", description: "Pomodoro, mozzarella, philadelphia, prosciutto crudo, rucola, pinoli", price: "9,00 €", tags: ["carne"] },

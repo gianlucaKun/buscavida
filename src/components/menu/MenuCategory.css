@@ -1,5 +1,6 @@
-.menu-category {
-    padding: 40px 0;
+.menu-category.container{
+    background-color: rgba(37, 37, 37, 0.78);
+    padding: 10px 20px;
 }
 
 .menu-category-header h2 {

@@ -17,7 +17,7 @@ const categoryButtons = [
 
 const extraFilterButtons = [
     { id: "vegetariana", label: "Vegetariane" },
-    { id: "calzone", label: "Calzone" },
+    // { id: "calzone", label: "Calzone" },
     { id: "piccante", label: "Piccanti" },
     { id: "pesce", label: "Pesce" },
     { id: "carne", label: "Carne" },
@@ -68,7 +68,7 @@ export default function Menu() {
 
             <main className="menu-page">
                 <section className="menu-intro container">
-                    <h2>Il nostro Menu</h2>
+                    <h2 id={"menu-page-title"}>Il nostro Menu</h2>
                     <p>
                         Pizze classiche, bianche, particolari e schiacciatini.
                         Scopri tutte le nostre specialità.

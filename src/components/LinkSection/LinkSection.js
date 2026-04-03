@@ -16,7 +16,7 @@ export default function LinkSection() {
                     <h3>IL NOSTRO MENU</h3>
                     <p>Scopri le nostre specialità</p>
                     <button><NavLink
-                        to="/menu"
+                        to="/menu#menu-page-title"
                         className="button-link"
                     >
                         VEDI MENU

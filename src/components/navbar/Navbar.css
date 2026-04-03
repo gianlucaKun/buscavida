@@ -1,12 +1,250 @@
-nav {
-    background-color: #61dafb;
-    display: flex;
-    padding: 0 20px; /* opzionale */
+.sfondo-legno {
+    background-image: url("../../assets/images/legno-scuro-sfondo.jpeg");
+    width: 100%;
+    height: 24px;
+    border-bottom: 4px solid #000;
 }
 
-ul {
-    list-style: none;
+.navbar {
     display: flex;
-    flex: 1; /* prende tutto lo spazio disponibile */
     justify-content: space-between;
+    align-items: center;
+    padding: 12px 32px 0 48px;
+    min-height: 90px;
+    position: relative;
+    border-bottom: 4px solid #000;
+    background-image: url("../../assets/images/sfondo-navbar-nero.jpg");
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.logo-image {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    padding-left: 25px;
+}
+
+.menu-container {
+    display: flex;
+    align-items: flex-end;
+    padding: 12px;
+    /*flex-direction: column;*/
+    margin-right: 0;
+}
+ul.navbar-menu {
+    padding: 12px 24px;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-menu li {
+    list-style: none;
+}
+
+.navbar-link {
+    display: inline-block;
+    position: relative;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.25s ease, transform 0.25s ease;
+    padding-bottom: 6px;
+}
+
+.navbar-link:hover {
+    transform: translateY(-1px);
+    color: #ffffff;
+}
+
+.navbar-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #d9772b;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.25s ease;
+}
+
+.navbar-link:hover::after {
+    transform: scaleX(1);
+}
+
+.navbar-link.active {
+    color: #d9772b;
+}
+
+.navbar-link.active::after {
+    transform: scaleX(1);
+}
+
+.button-prenota {
+    color: #fff;
+    background-color: #7e2811;
+    border-radius: 6px;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.25s ease;
+    border: 2px solid #611605;
+    box-shadow: inset 0 1px 0 #000;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    position: relative;
+}
+
+.hamburger span {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* posizioni iniziali */
+.hamburger span:nth-child(1) {
+    top: 0;
+}
+
+.hamburger span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hamburger span:nth-child(3) {
+    bottom: 0;
+}
+
+.hamburger.open span:nth-child(1) {
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.display-mobile {
+    display: none;
+}
+@media (max-width: 1250px) {
+    .navbar-menu {
+        gap: 12px;
+    }
+}
+/* tablet */
+@media (max-width: 1128px) {
+    .display-full-screen {
+        display: none;
+    }
+    .display-mobile {
+        display: block;
+    }
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar-menu {
+        position: absolute;
+        top: calc(100% + 4px);
+        right: 16px;
+        left: 16px;
+
+        background-image: url("../../assets/images/legno-scuro-sfondo.jpeg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+
+        padding: 20px 0;
+        margin: 0;
+
+        opacity: 0;
+        transform: translateY(-10px);
+        pointer-events: none;
+
+        transition: opacity 0.25s ease, transform 0.25s ease;
+        z-index: 20;
+    }
+
+    .navbar-menu.open {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+}
+
+/* smartphone */
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+        padding: 0 8px;
+    }
+    .logo-image {
+        width: 155px;
+        padding-left: 8px;
+    }
+    .navbar-menu {
+        top: calc(100% + 6px);
+        right: 12px;
+        left: 12px;
+        gap: 16px;
+        padding: 16px 0;
+        justify-content: space-between;
+    }
+    .navbar-menu li {
+        font-size: 0.9rem;
+    }
+    .menu-container {
+        display: flex;
+        align-items: flex-end;
+        padding: 12px;
+        margin-right: 0;
+        h1 {
+            font-weight: 600;
+            font-size: 1.2rem;
+            color : #fff;
+            a {
+                text-decoration: none;
+                color : #fff;
+            }
+        }
+    }
 }

@@ -1,0 +1,180 @@
+.gallery-container {
+    width: 100%;
+    padding: 48px 0 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    color: #fff;
+
+    border-top: 2px solid #9fa6a8;
+    box-shadow: inset 0 4px 0 #000;
+    position: relative;
+}
+
+.gallery-title {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    letter-spacing: 2px;
+    line-height: 1;
+
+    text-shadow:
+            2px 2px 0 #000,
+            4px 4px 10px rgba(0, 0, 0, 0.9);
+}
+
+.gallery-slider-wrapper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* fade laterali */
+.gallery-slider-wrapper::before,
+.gallery-slider-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.gallery-slider-wrapper::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(20, 20, 20, 0.95), rgba(20, 20, 20, 0));
+}
+
+.gallery-slider-wrapper::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(20, 20, 20, 0.95), rgba(20, 20, 20, 0));
+}
+
+.gallery-slider {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: auto;
+    scrollbar-width: none;
+    padding: 0 20px;
+}
+
+.gallery-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-card {
+    flex: 0 0 320px;
+    height: 220px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow:
+            0 10px 25px rgba(0, 0, 0, 0.4),
+            inset 0 0 0 2px rgba(255, 255, 255, 0.05);
+
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.28),
+            rgba(0, 0, 0, 0.04) 40%,
+            rgba(0, 0, 0, 0.1)
+    );
+}
+
+.gallery-card:hover {
+    transform: scale(1.04);
+    box-shadow:
+            0 14px 30px rgba(0, 0, 0, 0.48),
+            inset 0 0 0 2px rgba(255, 255, 255, 0.08);
+}
+
+/* bottone */
+.gallery-button {
+    min-width: 220px;
+    padding: 14px 26px;
+    background: rgba(20, 20, 20, 0.45);
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.38);
+    box-shadow:
+            inset 0 0 0 2px rgba(255, 255, 255, 0.06),
+            0 8px 20px rgba(0, 0, 0, 0.35);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.gallery-button:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+/* IMMAGINI */
+.gallery-card.rucola {
+    background-image: url('../../assets/images/gallery/pizzarucola-e-pizzasalamino.jpeg');
+}
+
+.gallery-card.locale {
+    background-image: url('../../assets/images/gallery/pizzeria-interno.jpeg');
+}
+
+.gallery-card.bianca {
+    background-image: url('../../assets/images/gallery/bianca.jpeg');
+}
+
+.gallery-card.comanda {
+    background-image: url('../../assets/images/gallery/pizze-comanda.jpeg');
+}
+
+.gallery-card.rossorelativo {
+    background-image: url('../../assets/images/gallery/rosso-relativo.jpeg');
+}
+
+/* tablet */
+@media (max-width: 1024px) {
+    .gallery-card {
+        flex: 0 0 280px;
+        height: 200px;
+    }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    .gallery-container {
+        padding: 28px 0 18px;
+        gap: 22px;
+    }
+
+    .gallery-slider {
+        gap: 14px;
+        padding: 0 14px;
+    }
+
+    .gallery-card {
+        flex: 0 0 240px;
+        height: 170px;
+    }
+
+    .gallery-slider-wrapper::before,
+    .gallery-slider-wrapper::after {
+        width: 36px;
+    }
+
+    .gallery-button {
+        min-width: 190px;
+        padding: 12px 20px;
+    }
+}

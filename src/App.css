@@ -1,3 +1,21 @@
 body {
-  padding: 20px;
+  background-image: url(./assets/images/muro-cemento.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center;
+  /*font-family: 'Playfair Display', sans-serif;*/
+  /*padding: 12px 30px 30px;*/
+  font-family: 'Bebas Neue', sans-serif;
 }
+
+/* tablet */
+@media (max-width: 1025px) {
+  body {
+    /*padding: 12px 12px 30px;*/
+  }
+}
+
+/* smartphone */
+@media (max-width: 768px) {
+}
+

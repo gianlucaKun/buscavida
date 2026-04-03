@@ -1,0 +1,33 @@
+.menu-item {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 18px 20px;
+    border-radius: 10px;
+}
+
+.menu-item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: #d24b3f;
+}
+
+.menu-item-price {
+    white-space: nowrap;
+    font-weight: 700;
+    color: #fff;
+}
+
+.menu-item p {
+    margin: 0;
+    color: #d7d0c5;
+    line-height: 1.5;
+}

@@ -1,0 +1,128 @@
+.link-section-container {
+    width: 100%;
+    padding: 40px 24px 60px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border-top: 2px solid #9fa6a8;
+    box-shadow: inset 0 6px 0 #000;
+}
+
+.link-section-list {
+    width: 100%;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link-card {
+    min-height: 260px;
+    padding: 36px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(20, 20, 20, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow:
+            inset 0 0 0 2px rgba(255, 255, 255, 0.04),
+            0 10px 25px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    position: relative;
+}
+
+.link-card::before {
+    content: "";
+    position: absolute;
+    inset: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    pointer-events: none;
+}
+
+.link-card h3 {
+    margin: 0 0 18px;
+    font-size: clamp(1.2rem, 2.6vw, 2rem);
+    line-height: 1;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.85);
+}
+
+.link-card p {
+    margin: 0 0 24px;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.link-card button {
+    min-width: 180px;
+    padding: 12px 22px;
+    background: rgba(20, 20, 20, 0.45);
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    box-shadow:
+            inset 0 0 0 2px rgba(255, 255, 255, 0.06),
+            0 6px 16px rgba(0, 0, 0, 0.35);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.link-card button .button-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-card button .button-link-prenota {
+    text-decoration: none;
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+.link-card button:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+.link-card button.primary {
+    background: #9d2416;
+    border-color: #6d1409;
+}
+
+.link-card button.primary:hover {
+    background: #b12918;
+}
+@media (max-width: 1250px) {
+    .display-full-screen{
+        display: none;
+    }
+    .link-section-container {
+        padding: 40px 0 60px;
+    }
+
+    .link-section-list {
+        grid-template-columns: 1fr;
+    }
+
+    .link-card {
+        min-height: 150px;
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .link-card h3 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 900px) {
+    .link-section-list {
+        grid-template-columns: 1fr;
+    }
+}

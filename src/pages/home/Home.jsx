@@ -4,7 +4,6 @@ import Hero from "../../components/hero/Hero";
 import Footer from "../../components/footer/Footer";
 // import HeroBanner from "../../components/heroBanner/HeroBanner";
 // import pizzaImage from "../../assets/images/pizza-dx.jpeg";
-import pizzeriaImage from "../../assets/images/pizzeria-interno3.jpeg";
 import "./Home.css";
 import LinkSection from "../../components/LinkSection/LinkSection";
 import Gallery from "../../components/gallery/Gallery";

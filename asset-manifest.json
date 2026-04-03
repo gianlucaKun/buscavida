@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/buscavida/static/css/main.d9b042c9.css",
-    "main.js": "/buscavida/static/js/main.cf4e3075.js",
+    "main.css": "/buscavida/static/css/main.bce76d31.css",
+    "main.js": "/buscavida/static/js/main.4461e836.js",
     "static/js/453.d510851a.chunk.js": "/buscavida/static/js/453.d510851a.chunk.js",
     "static/media/BUSCA-VIDA-MENU.pdf": "/buscavida/static/media/BUSCA-VIDA-MENU.6bae06af1ce61c120b35.pdf",
     "static/media/1pizza-rucola.png": "/buscavida/static/media/1pizza-rucola.ba2e3c63cd40e87d17e9.png",
@@ -16,12 +16,12 @@
     "static/media/pizzeria-interno3.jpeg": "/buscavida/static/media/pizzeria-interno3.236221b12de7737c86b0.jpeg",
     "static/media/sfondo-navbar-nero.jpg": "/buscavida/static/media/sfondo-navbar-nero.4243856d3739004b9edd.jpg",
     "index.html": "/buscavida/index.html",
-    "main.d9b042c9.css.map": "/buscavida/static/css/main.d9b042c9.css.map",
-    "main.cf4e3075.js.map": "/buscavida/static/js/main.cf4e3075.js.map",
+    "main.bce76d31.css.map": "/buscavida/static/css/main.bce76d31.css.map",
+    "main.4461e836.js.map": "/buscavida/static/js/main.4461e836.js.map",
     "453.d510851a.chunk.js.map": "/buscavida/static/js/453.d510851a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9b042c9.css",
-    "static/js/main.cf4e3075.js"
+    "static/css/main.bce76d31.css",
+    "static/js/main.4461e836.js"
   ]
 }
